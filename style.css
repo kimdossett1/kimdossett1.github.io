@@ -1,0 +1,18 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+h1{color:rosybrown;
+  font-family:"Avenir";
+  font-size:28pt}
+h3{color:maroon;
+  font-family:"Avenir";
+  font-size:14pt}
+p{font-family:"Avenir";
+  font-size:11pt}
+li{color:gray;
+  font-family:"Avenir";
+  font-size:11pt}
+.caption{color:indianred;
+  font-family:"Avenir";
+  font-size:11pt}
