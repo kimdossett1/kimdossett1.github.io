@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Swiper demo</title>
+    <title>CP Nassau's 'Festival of Trees'</title>
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
 
     <!-- Demo styles -->
     <style>
@@ -13,34 +13,105 @@
         height: 100%;
       }
       body {
-        background: #eee;
+        background: #ffffff;
         font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
         font-size: 14px;
-        color:#000;
+        color:#000000;
         margin: 0;
         padding: 0;
       }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
       .swiper-container {
         width: 100%;
         height: 100%;
       }
       .swiper-slide {
-        text-align: center;
         font-size: 18px;
-        background: #fff;
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
+        background: white;
+        display: block;
+      }
+      img.displayed {
+        display: block;
+        margin-left: auto;
+        margin-right: auto }
+      .center {
+        text-align: center;
+        position:relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20%;
+        width:80%;
+      }
+      .left {
+        text-align: left;
+        position:relative;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20%;
+        width:80%;
+      }
+      .bottom {
+        text-align-last: center;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20%;
+        width:70%;
+      }
+      .background {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+      }
+      .video-container {
+        position:relative;
+        padding-bottom:56.25%;
+        padding-top:30px;
+        height:0;
+        overflow:hidden;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .video-container iframe {
+        position:absolute;
+        align-content: center;
+        top:5%;
+        left:5%;
+        width:90%;
+        height:90%;
+
+      }
+      .top {
+        text-align-last: center;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -75%);
+        padding: 40%;
+        width:70%; 
+      }
+      .top-2 {
+        text-align: center;
+        position:absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20%;
+        width:80%;
       }
     </style>
   </head>
@@ -48,12 +119,99 @@
     <!-- Swiper -->
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
+
+
+        <div class="swiper-slide">
+          <div class = "background" style="background-image:url('https://ringlerreport.files.wordpress.com/2017/11/xmas-2928142.jpg'">
+            <div class="left">
+              <h1 style="font-size:75pt; color:green;">CP Nassau's <br>
+                Festival of Trees</h1>
+              <h2 style="color:red; font-size: 45px;">By Kim Dossett and Joshua Ringler</h2>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class = "background" style="background-image:url('https://ringlerreport.files.wordpress.com/2017/11/pgoql0bqokonxzss5j34q.jpg'); background-repeat: no-repeat; background-color: #006d3b;
+                                           -webkit-background-size: contain;
+                                           -moz-background-size: contain;
+                                           -o-background-size: contain;
+                                           background-size: contain;">
+            <div class="center">
+              <div class="bottom">
+                <h1 style= "color:rgb(225, 0, 0); background-color: rgba(255, 255, 255, 0.8); font-size: 30px; ">
+                  Cerebral Palsy Nassau’s 28th Annual Festival of Trees took place from November 24th to 26th at the Cradle of Aviation in Garden City.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div> <iframe style="video-container" width="100%" height=auto src="https://www.youtube.com/embed/wnGarqsUZ0g" frameborder="0" allowfullscreen></iframe>
+            <div class="center">
+              <div class="bottom">
+                <h1 style= "color:rgb(21, 95, 21); background-color: rgba(255, 0, 0, 0.8); font-size: 30px;">
+                  The event included live performances such as the Uniondale High School Band and various dance groups.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class = "background" style="background-image:url('https://ringlerreport.files.wordpress.com/2017/11/n8snxakxr1qypnr9nbhtg.jpg'); background-repeat: no-repeat; background-color: #639dd6;
+                                           -webkit-background-size: contain;
+                                           -moz-background-size: contain;
+                                           -o-background-size: contain;
+                                           background-size: contain;">
+            <div class="center">
+              <div class="top-2">
+                <h1 style= "color:rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0.95); font-size: 30px; ">
+                  The event included live performances and vendors selling anything from hair accessories to holiday decorations to fresh honey.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class = "background" style="background-image:url('https://ringlerreport.files.wordpress.com/2017/11/86we8bkythccv4z4bh3ww.jpg'); background-repeat: no-repeat; background-color: #277e00;
+                                           -webkit-background-size: contain;
+                                           -moz-background-size: contain;
+                                           -o-background-size: contain;
+                                           background-size: contain;">
+            <div class="center">
+              <div class="top-2">
+                <h1 style= "color:rgb(162, 0, 0); background-color: rgba(255, 255, 255, 0.95); font-size: 30px; ">
+                  While vendors are able to keep the profit from their sales, they pay a $450 fee that goes directly to CP Nassau.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class = "background" style="background-image:url('https://ringlerreport.files.wordpress.com/2017/11/vr3cldtit8mah7jmgcnlrq.jpg'); background-repeat: no-repeat; background-color: #277e00;
+                                           -webkit-background-size: contain;
+                                           -moz-background-size: contain;
+                                           -o-background-size: contain;
+                                           background-size: contain;">
+            <div class="center">
+              <div class="top-2">
+                <h1 style= "color:rgb(162, 0, 0); background-color: rgba(255, 255, 255, 0.95); font-size: 30px; ">
+                  Vendors included Department 56 as well as local businesses such as Miss Molly’s Honeydrippers.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">Slide VIDEO</div>
+        <div class="swiper-slide">Slide VIDEO</div>
+        <div class="swiper-slide">
+          <div class = "background" style="background-image:url('https://ringlerreport.files.wordpress.com/2017/11/f5zvqgq4qyaydru8czasgg.jpg'); background-repeat: no-repeat; background-color: #930000;
+                                           -webkit-background-size: contain;
+                                           -moz-background-size: contain;
+                                           -o-background-size: contain;
+                                           background-size: contain;">
+            <div class="center">
+              <div class="bottom">
+                <h1 style= "color:rgb(21, 95, 21); background-color: rgba(255, 255, 255, 0.8); font-size: 32px;">
+                  Various organizations and companies, such as the Syosset High School National Art Honor Society, purchased a tree from CP Nassau and fully decorated them on Tuesday, November 24th to be auctioned off.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="swiper-slide">Slide 7</div>
         <div class="swiper-slide">Slide 8</div>
         <div class="swiper-slide">Slide 9</div>
